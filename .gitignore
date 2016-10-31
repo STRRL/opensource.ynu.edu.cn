@@ -87,3 +87,8 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# http://railslide.io/pelican-github-pages.html
+*.pid
+*.pyc
+output/
