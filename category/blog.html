@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+        <meta charset="utf-8" />
+        <title>Opensource of Ynu - Blog</title>
+        <link rel="stylesheet" href="http://opensource-yunnan-university.github.io/opensource.ynu.edu.cn/theme/css/main.css" />
+        <link href="http://opensource-yunnan-university.github.io/opensource.ynu.edu.cn/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Opensource of Ynu Atom Feed" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://opensource-yunnan-university.github.io/opensource.ynu.edu.cn/">Opensource of Ynu </a></h1>
+                <nav><ul>
+                    <li class="active"><a href="http://opensource-yunnan-university.github.io/opensource.ynu.edu.cn/category/blog.html">Blog</a></li>
+                    <li><a href="http://opensource-yunnan-university.github.io/opensource.ynu.edu.cn/category/event.html">Event</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="http://opensource-yunnan-university.github.io/opensource.ynu.edu.cn/how-to-contribute-content.html">How to contribute content</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2016-10-31T22:20:00+08:00">
+                Published: Mon 31 October 2016
+        </abbr>
+		<br />
+        <abbr class="modified" title="2016-10-31T22:20:00+08:00">
+                Updated: Mon 31 October 2016
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="http://opensource-yunnan-university.github.io/opensource.ynu.edu.cn/author/liudonghua123.html">liudonghua123</a>
+        </address>
+<p>In <a href="http://opensource-yunnan-university.github.io/opensource.ynu.edu.cn/category/blog.html">Blog</a>.</p>
+<p>tags: <a href="http://opensource-yunnan-university.github.io/opensource.ynu.edu.cn/tag/blog.html">blog</a> <a href="http://opensource-yunnan-university.github.io/opensource.ynu.edu.cn/tag/demo.html">demo</a> </p>
+</footer><!-- /.post-info --><h1>如何搭建环境</h1>
+<ol>
+<li>安装<code>git</code>、<code>python</code>等工具</li>
+<li>安装<code>pelican</code>，执行<code>pip install pelican markdown ghp-import</code></li>
+<li>下载本项目，执行<code>git clone https://github.com/opensource-yunnan-university/opensource.ynu.edu.cn.git</code></li>
+<li>编译和预览，在项目更目录下执行<code>make html &amp;&amp; make serve</code></li>
+</ol>
+<h1>如何添加内容</h1>
+<p>添加的内容放在<code>content</code>目录下面，使用英文文件名，如果有多个单词，则使用<code>-</code>连字符，后缀是<code>md</code>，在markdown文件的开始部分需要添加<code>metadata</code>，然后空一行再写内容，具体格式如下，可参考官方的 <a href="http://docs.getpelican.com/en/3.6.3/content.html">Writing content</a></p>
+<div class="highlight"><pre><span></span><span class="n">Title</span><span class="o">:</span> <span class="n">My</span> <span class="kd">super</span> <span class="n">title</span>
+<span class="n">Date</span><span class="o">:</span> <span class="mi">2010</span><span class="o">-</span><span class="mi">12</span><span class="o">-</span><span class="mi">03</span> <span class="mi">10</span><span class="o">:</span><span class="mi">20</span>
+<span class="n">Modified</span><span class="o">:</span> <span class="mi">2010</span><span class="o">-</span><span class="mi">12</span><span class="o">-</span><span class="mi">05</span> <span class="mi">19</span><span class="o">:</span><span class="mi">30</span>
+<span class="n">Category</span><span class="o">:</span> <span class="n">Python</span>
+<span class="n">Tags</span><span class="o">:</span> <span class="n">pelican</span><span class="o">,</span> <span class="n">publishing</span>
+<span class="n">Slug</span><span class="o">:</span> <span class="n">my</span><span class="o">-</span><span class="kd">super</span><span class="o">-</span><span class="n">post</span>
+<span class="n">Authors</span><span class="o">:</span> <span class="n">Alexis</span> <span class="n">Metaireau</span><span class="o">,</span> <span class="n">Conan</span> <span class="n">Doyle</span>
+<span class="n">Summary</span><span class="o">:</span> <span class="n">Short</span> <span class="n">version</span> <span class="k">for</span> <span class="n">index</span> <span class="n">and</span> <span class="n">feeds</span>
+
+<span class="n">This</span> <span class="k">is</span> <span class="n">the</span> <span class="n">content</span> <span class="n">of</span> <span class="n">my</span> <span class="kd">super</span> <span class="n">blog</span> <span class="n">post</span><span class="o">.</span>
+</pre></div>
+
+
+<p>注意这里的Category目前支持的有<code>Event</code>、<code>Blog</code>、<code>Podcast</code>这几种</p>
+<h1>如何编译和预览</h1>
+<p>在项目根目录下执行<code>make html &amp;&amp; make serve</code>，然后打开浏览器浏览<a href="http://localhost:8000/">http://localhost:8000/</a>就可以，一般为了提升修改-预览-修改效率，可以在一个shell session中<code>make serve</code>，另一个shell session中每当更新内容之后再次执行<code>make html</code></p>
+<h1>如何提交内容</h1>
+<ol>
+<li>如果是云大开源中心会员，<code>clone</code>本项目之后修改内容，直接<code>push</code></li>
+<li>其他用户，请先<code>fork</code>之后添加内容，然后<code>send pull request</code>给我们，我们审核通过后就会更新。</li>
+</ol>
+<h1>开源协议</h1>
+<p>本项目使用<a href="http://www.apache.org/licenses/">Apache License Version 2.0</a>开源协议</p>
+<h1>参考资料</h1>
+<ol>
+<li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown-Cheatsheet</a></li>
+<li><a href="http://railslide.io/pelican-github-pages.html">How to set up Pelican on GitHub pages</a></li>
+<li><a href="https://github.com/getpelican/pelican-themes">pelican-themes</a></li>
+<li><a href="[https://github.com/getpelican/pelican-plugins]">pelican-plugins</a></li>
+<li><a href="[https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/]">Coding An HTML 5 Layout From Scratch</a></li>
+<li><a href="[https://www.tuna.moe/]">www.tuna.moe</a></li>
+</ol>                </article>
+            </aside><!-- /#featured -->
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://opensource-yunnan-university.github.io/opensource.ynu.edu.cn/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                            <li><a href="#">You can add links in your config file</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

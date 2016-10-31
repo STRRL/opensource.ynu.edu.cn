@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Opensource of Ynu</title><link href="http://opensource-yunnan-university.github.io/opensource.ynu.edu.cn/" rel="alternate"></link><link href="http://opensource-yunnan-university.github.io/opensource.ynu.edu.cn/feeds/all.atom.xml" rel="self"></link><id>http://opensource-yunnan-university.github.io/opensource.ynu.edu.cn/</id><updated>2016-10-31T22:20:00+08:00</updated><entry><title>First event</title><link href="http://opensource-yunnan-university.github.io/opensource.ynu.edu.cn/first-event.html" rel="alternate"></link><published>2016-10-31T22:20:00+08:00</published><updated>2016-10-31T22:20:00+08:00</updated><author><name>liudonghua123</name></author><id>tag:opensource-yunnan-university.github.io,2016-10-31:opensource.ynu.edu.cn/first-event.html</id><summary type="html">&lt;p&gt;Hello, guys, This is my fist article, it is written using markdown, and the source code is belows&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;Title&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;First&lt;/span&gt; &lt;span class="n"&gt;event&lt;/span&gt;
+&lt;span class="n"&gt;Date&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;2016&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;31&lt;/span&gt; &lt;span class="mi"&gt;22&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;20&lt;/span&gt;
+&lt;span class="n"&gt;Modified&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;2016&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;31&lt;/span&gt; &lt;span class="mi"&gt;22&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;20&lt;/span&gt;
+&lt;span class="n"&gt;Category&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Event&lt;/span&gt;
+&lt;span class="n"&gt;Tags&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;event&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;demo&lt;/span&gt;
+&lt;span class="n"&gt;Slug&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;first&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;event&lt;/span&gt;
+&lt;span class="n"&gt;Authors&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;liudonghua123&lt;/span&gt;
+&lt;span class="n"&gt;Summary&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;This&lt;/span&gt; &lt;span class="k"&gt;is&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;demo&lt;/span&gt; &lt;span class="n"&gt;article&lt;/span&gt; &lt;span class="n"&gt;just&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;demonstration&lt;/span&gt;
+
+&lt;span class="n"&gt;Hello&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;guys&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;This&lt;/span&gt; &lt;span class="k"&gt;is&lt;/span&gt; &lt;span class="n"&gt;my&lt;/span&gt; &lt;span class="n"&gt;fist&lt;/span&gt; &lt;span class="n"&gt;article&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;it&lt;/span&gt; &lt;span class="k"&gt;is&lt;/span&gt; &lt;span class="n"&gt;written&lt;/span&gt; &lt;span class="n"&gt;using&lt;/span&gt; &lt;span class="n"&gt;markdown&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;and&lt;/span&gt; &lt;span class="n"&gt;the&lt;/span&gt; &lt;span class="n"&gt;source&lt;/span&gt; &lt;span class="n"&gt;code&lt;/span&gt; &lt;span class="k"&gt;is&lt;/span&gt; &lt;span class="n"&gt;belows&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="event"></category><category term="demo"></category></entry><entry><title>How to contribute content</title><link href="http://opensource-yunnan-university.github.io/opensource.ynu.edu.cn/how-to-contribute-content.html" rel="alternate"></link><published>2016-10-31T22:20:00+08:00</published><updated>2016-10-31T22:20:00+08:00</updated><author><name>liudonghua123</name></author><id>tag:opensource-yunnan-university.github.io,2016-10-31:opensource.ynu.edu.cn/how-to-contribute-content.html</id><summary type="html">&lt;h1&gt;如何搭建环境&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;安装&lt;code&gt;git&lt;/code&gt;、&lt;code&gt;python&lt;/code&gt;等工具&lt;/li&gt;
+&lt;li&gt;安装&lt;code&gt;pelican&lt;/code&gt;，执行&lt;code&gt;pip install pelican markdown ghp-import&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;下载本项目，执行&lt;code&gt;git clone https://github.com/opensource-yunnan-university/opensource.ynu.edu.cn.git&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;编译和预览，在项目更目录下执行&lt;code&gt;make html &amp;amp;&amp;amp; make serve&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1&gt;如何添加内容&lt;/h1&gt;
+&lt;p&gt;添加的内容放在&lt;code&gt;content&lt;/code&gt;目录下面，使用英文文件名，如果有多个单词，则使用&lt;code&gt;-&lt;/code&gt;连字符，后缀是&lt;code&gt;md&lt;/code&gt;，在markdown文件的开始部分需要添加&lt;code&gt;metadata&lt;/code&gt;，然后空一行再写内容，具体格式如下，可参考官方的 &lt;a href="http://docs.getpelican.com/en/3.6.3/content.html"&gt;Writing content&lt;/a&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;Title&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;My&lt;/span&gt; &lt;span class="kd"&gt;super&lt;/span&gt; &lt;span class="n"&gt;title&lt;/span&gt;
+&lt;span class="n"&gt;Date&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;2010&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;12&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;03&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;20&lt;/span&gt;
+&lt;span class="n"&gt;Modified&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;2010&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;12&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;05&lt;/span&gt; &lt;span class="mi"&gt;19&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;30&lt;/span&gt;
+&lt;span class="n"&gt;Category&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Python&lt;/span&gt;
+&lt;span class="n"&gt;Tags&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;pelican&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;publishing&lt;/span&gt;
+&lt;span class="n"&gt;Slug&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;my&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="kd"&gt;super&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;post&lt;/span&gt;
+&lt;span class="n"&gt;Authors&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Alexis&lt;/span&gt; &lt;span class="n"&gt;Metaireau&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Conan&lt;/span&gt; &lt;span class="n"&gt;Doyle&lt;/span&gt;
+&lt;span class="n"&gt;Summary&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Short&lt;/span&gt; &lt;span class="n"&gt;version&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;index&lt;/span&gt; &lt;span class="n"&gt;and&lt;/span&gt; &lt;span class="n"&gt;feeds&lt;/span&gt;
+
+&lt;span class="n"&gt;This&lt;/span&gt; &lt;span class="k"&gt;is&lt;/span&gt; &lt;span class="n"&gt;the&lt;/span&gt; &lt;span class="n"&gt;content&lt;/span&gt; &lt;span class="n"&gt;of&lt;/span&gt; &lt;span class="n"&gt;my&lt;/span&gt; &lt;span class="kd"&gt;super&lt;/span&gt; &lt;span class="n"&gt;blog&lt;/span&gt; &lt;span class="n"&gt;post&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;注意这里的Category目前支持的有&lt;code&gt;Event&lt;/code&gt;、&lt;code&gt;Blog&lt;/code&gt;、&lt;code&gt;Podcast&lt;/code&gt;这几种&lt;/p&gt;
+&lt;h1&gt;如何编译和预览&lt;/h1&gt;
+&lt;p&gt;在项目根目录下执行&lt;code&gt;make html &amp;amp;&amp;amp; make serve&lt;/code&gt;，然后打开浏览器浏览&lt;a href="http://localhost:8000/"&gt;http://localhost:8000/&lt;/a&gt;就可以，一般为了提升修改-预览-修改效率，可以在一个shell session中&lt;code&gt;make serve&lt;/code&gt;，另一个shell session中每当更新内容之后再次执行&lt;code&gt;make html&lt;/code&gt;&lt;/p&gt;
+&lt;h1&gt;如何提交内容&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;如果是云大开源中心会员，&lt;code&gt;clone&lt;/code&gt;本项目之后修改内容，直接&lt;code&gt;push&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;其他用户，请先&lt;code&gt;fork&lt;/code&gt;之后添加内容，然后&lt;code&gt;send pull request&lt;/code&gt;给我们，我们审核通过后就会更新。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1&gt;开源协议&lt;/h1&gt;
+&lt;p&gt;本项目使用&lt;a href="http://www.apache.org/licenses/"&gt;Apache License Version 2.0&lt;/a&gt;开源协议&lt;/p&gt;
+&lt;h1&gt;参考资料&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet"&gt;Markdown-Cheatsheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://railslide.io/pelican-github-pages.html"&gt;How to set up Pelican on GitHub pages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/getpelican/pelican-themes"&gt;pelican-themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="[https://github.com/getpelican/pelican-plugins]"&gt;pelican-plugins&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="[https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/]"&gt;Coding An HTML 5 Layout From Scratch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="[https://www.tuna.moe/]"&gt;www.tuna.moe&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</summary><category term="blog"></category><category term="demo"></category></entry></feed>
