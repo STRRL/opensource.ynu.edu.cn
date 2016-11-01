@@ -52,6 +52,6 @@ This is the content of my super blog post.
 [Markdown-Cheatsheet]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 [How to set up Pelican on GitHub pages]: http://railslide.io/pelican-github-pages.html
 [pelican-themes]: https://github.com/getpelican/pelican-themes
-[pelican-plugins]: [https://github.com/getpelican/pelican-plugins]
-[www.tuna.moe]: [https://www.tuna.moe/]
-[Coding An HTML 5 Layout From Scratch]: [https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/]
+[pelican-plugins]: https://github.com/getpelican/pelican-plugins
+[www.tuna.moe]: https://www.tuna.moe/
+[Coding An HTML 5 Layout From Scratch]: https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/

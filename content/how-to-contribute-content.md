@@ -39,7 +39,7 @@ This is the content of my super blog post.
 
 # 如何提交内容
 
-1.  如果是云大开源中心会员，`clone`本项目之后修改内容，直接`push`
+1.  如果是云大开源中心会员，`clone`本项目之后修改内容，直接`git push`、`make publish`
 2.  其他用户，请先`fork`之后添加内容，然后`send pull request`给我们，我们审核通过后就会更新。
 
 # 开源协议
@@ -58,6 +58,6 @@ This is the content of my super blog post.
 [Markdown-Cheatsheet]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 [How to set up Pelican on GitHub pages]: http://railslide.io/pelican-github-pages.html
 [pelican-themes]: https://github.com/getpelican/pelican-themes
-[pelican-plugins]: [https://github.com/getpelican/pelican-plugins]
-[www.tuna.moe]: [https://www.tuna.moe/]
-[Coding An HTML 5 Layout From Scratch]: [https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/]
+[pelican-plugins]: https://github.com/getpelican/pelican-plugins
+[www.tuna.moe]: https://www.tuna.moe/
+[Coding An HTML 5 Layout From Scratch]: https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/
